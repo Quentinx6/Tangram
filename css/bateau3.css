@@ -1,20 +1,27 @@
 .tangram--bateau3 .figure1 {
     /*already positionned wow*/
+    top: 780px;
+    left: 685px;
+    transform: rotate(225deg);
 }
 
 .tangram--bateau3 .figure2 {
-    left: 2000px;
+    left: 500px;
+    top: 600px;
+    transform: rotate(45deg) skew(-45deg);
 }
 
 .tangram--bateau3 .figure3 {
-    transform: rotate(45deg);
-    top: 128px;
-    left: 128px;
+    top: 290px;
+    left: 800px;
+    transform: rotate(75deg);
+
 }
 
 .tangram--bateau3 .figure4 {
-    left: 128px;
-    top: 128px;
+    left: 578px;
+    top: 160px;
+    transform: rotate(30deg);
 }
 
 .tangram--bateau3 .figure5 {
@@ -23,6 +30,9 @@
 
 .tangram--bateau3 .figure6 {
     bottom: 0;
+    left: 1024px;
+    top: 417px;
+    transform: rotate(120deg);
 }
 
 .tangram--bateau3 .figure7 {
