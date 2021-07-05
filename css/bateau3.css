@@ -1,0 +1,31 @@
+.tangram--bateau3 .figure1 {
+    /*already positionned wow*/
+}
+
+.tangram--bateau3 .figure2 {
+    left: 2000px;
+}
+
+.tangram--bateau3 .figure3 {
+    transform: rotate(45deg);
+    top: 128px;
+    left: 128px;
+}
+
+.tangram--bateau3 .figure4 {
+    left: 128px;
+    top: 128px;
+}
+
+.tangram--bateau3 .figure5 {
+    /*already positionned*/
+}
+
+.tangram--bateau3 .figure6 {
+    bottom: 0;
+}
+
+.tangram--bateau3 .figure7 {
+    top:256px;
+    left:0;
+}

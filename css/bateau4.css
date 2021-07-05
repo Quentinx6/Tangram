@@ -1,0 +1,53 @@
+.tangram--bateau4 .figure1 {
+    top: 693px;
+    left: 361px;
+    transform: rotate(
+            225deg
+    );
+}
+
+.tangram--bateau4 .figure2 {
+    transform: rotate(45deg) skew(-45deg);
+    left: 180px;
+    top: 512px;
+}
+
+.tangram--bateau4 .figure3 {
+    transform: rotate(
+            45deg
+    );
+    top: 256px;
+    left: 542px;
+}
+
+.tangram--bateau4 .figure4 {
+    left: 542px;
+    top: 512px;
+    transform: rotate(
+            180deg
+    );
+}
+
+.tangram--bateau4 .figure5 {
+    left: 798px;
+    top: 511px;
+    transform: rotate(
+            180deg
+    );
+}
+
+.tangram--bateau4 .figure6 {
+    left: 467px;
+    top: -1px;
+    transform: rotate(
+            135deg
+    );
+}
+
+.tangram--bateau4 .figure7 {
+    transform: rotate(
+            135deg
+    );
+    left: 465px;
+    top: 256px;
+}
