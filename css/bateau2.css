@@ -1,45 +1,39 @@
-
-*
-{
-        animation-duration:2s;
-}
-
 .tangram--bateau2 .figure1 {
         transform: rotate(45deg) translate(170px, -135px);
-        animation-name: figure1bateau2;
+        transition: transform 2s;
     }
     
     .tangram--bateau2 .figure2 {
         transform: rotate(280deg) skew(45deg) translate(4px, -260px);
-        animation-name: figure2bateau2;
+        transition: transform 2s;
     }
     
     .tangram--bateau2 .figure3 {
         transform: rotate(45deg) translate(303px,-3px);
-        animation-name:figure3bateau2;
+        transition: transform 2s;
     }
     
     .tangram--bateau2 .figure4 {
         transform: translate(-42px,209px);
-        animation-name: figure4bateau2;
+        transition: transform 2s;
     }
     
     .tangram--bateau2 .figure5 {
         transform: rotate(90deg) translate(-45px,-210px);
-        animation-name: figure5bateau2;
+        transition: transform 2s;
     }
     
     .tangram--bateau2 .figure6 {
         transform: rotate(90deg) translate(209px,-475px);
-        animation-name: figure6bateau2;
+        transition: transform 2s;
     }
     
     .tangram--bateau2 .figure7 {
         transform: rotate(180deg)translate(50px,-465px);
-        animation-name: figure7bateau2;
+        transition: transform 2s;
     }
     
-    @keyframes figure1bateau2
+    /*@keyframes figure1bateau2
     {
         from {transform: rotate(0deg) translate(0px,0px);}
         to {transform: rotate(45deg) translate(170px, -135px);}
