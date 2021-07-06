@@ -9,9 +9,7 @@
 }
 
 .tangram--bateau4 .figure3 {
-    transform: rotate(
-            45deg
-    );
+    transform: rotate(45deg);
     top: 256px;
     left: 542px;
     transition: left 2s, top 2s, transform 2s;
