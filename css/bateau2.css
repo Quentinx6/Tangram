@@ -1,31 +1,41 @@
 .tangram--bateau2 .figure1 {
-    /*already positionned wow*/
-}
-
-.tangram--bateau2 .figure2 {
-    left: 256px;
-}
-
-.tangram--bateau2 .figure3 {
     transform: rotate(45deg);
-    top: 128px;
-    left: 128px;
-}
-
-.tangram--bateau2 .figure4 {
-    left: 128px;
-    top: 128px;
-}
-
-.tangram--bateau2 .figure5 {
-    /*already positionned*/
-}
-
-.tangram--bateau2 .figure6 {
-    bottom: 0;
-}
-
-.tangram--bateau2 .figure7 {
-    top:256px;
-    left:0;
-}
+    top: 305px;
+    left: 499px;
+    }
+    
+    .tangram--bateau2 .figure2 {
+        left: -20px;
+        top:485px;
+        transform: rotate(280deg) skew(45deg);
+    }
+    
+    .tangram--bateau2 .figure3 {
+        transform: rotate(45deg);
+        top: 490px;
+        left: 501px;
+    }
+    
+    .tangram--bateau2 .figure4 {
+        left: 243px;
+        top: 489px;
+    }
+    
+    .tangram--bateau2 .figure5 {
+    top: 233px;
+    transform: rotate(90deg);
+    left: 495px;
+    }
+    
+    .tangram--bateau2 .figure6 {
+        transform: rotate(90deg);
+        top: 489px;
+        left: 759px;
+    }
+    
+    .tangram--bateau2 .figure7 {
+        top:745px;
+        left:235px;
+        transform: rotate(180deg);
+    }
+    
