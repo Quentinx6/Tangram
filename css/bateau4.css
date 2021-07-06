@@ -1,51 +1,37 @@
 .tangram--bateau4 .figure1 {
     transform: rotate(225deg) translate(-767px, -249px);
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    transition: transform 2s;
 }
 
 .tangram--bateau4 .figure2 {
     transform: rotate(45deg) skew(-45deg) translate(759px,250px);
-    transition: left 2s, top 2s, transform 2s;
+    transition: transform 2s;
 }
 
 .tangram--bateau4 .figure3 {
-    transform: rotate(45deg);
-    top: 256px;
-    left: 542px;
-    transition: left 2s, top 2s, transform 2s;
-
+    transform: translate(542px, 256px) rotate(45deg);
+    transition: transform 2s;
 }
 
 .tangram--bateau4 .figure4 {
     transform: rotate(180deg) translate(-542px, -513px);
-    transition: left 2s, top 2s, transform 2s;
-
+    transition: transform 2s;
 }
 
 .tangram--bateau4 .figure5 {
-    left: 798px;
-    top: 511px;
-    transform: rotate(
-            180deg
-    );
-    transition: left 2s, top 2s, transform 2s;
+    transform: translate(798px, 511px) rotate(180deg);
+    transition: transform 2s;
 
 }
 
 .tangram--bateau4 .figure6 {
-    left: 467px;
-    top: -1px;
-    transform: rotate(135deg) translate(0px, 0px);
-    transition: left 2s, top 2s, transform 2s;
+    transform: translate(467px, -1px) rotate(135deg);
+    transition: transform 2s;
 
 }
 
 .tangram--bateau4 .figure7 {
-    transform: rotate(
-            135deg
-    );
-    left: 465px;
-    top: 256px;
-    transition: left 2s, top 2s, transform 2s;
+    transform: translate(465px, 256px) rotate(135deg);
+    transition: transform 2s;
 
 }
