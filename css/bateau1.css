@@ -1,57 +1,32 @@
 /* bateau 1 */
-
 .tangram--bateau1 .figure1 {
-    top: -107px;
-    left: 249px;
-    transform: rotate(45deg);
-    transition: left 2s, top 2s, transform 3s;
-
+    /*already positionned wow*/
 }
 
 .tangram--bateau1 .figure2 {
-    left: -2px;
-    top: 257px;
-    transform: skew(-45deg) translate(0px, 0px);
-    transition: left 2s, top 2s, transform 2s;
+    left: 256px;
 }
 
 .tangram--bateau1 .figure3 {
-    top: 75px;
-    left: 168px;
-    transform: translate(0px, 0px);
-    transition: left 2s, top 2s, transform 2s;
-
+    transform: rotate(45deg);
+    top: 128px;
+    left: 128px;
 }
 
 .tangram--bateau1 .figure4 {
-    top: 256px;
-    right: 514px;
-    transform: translate(0px, 0px);
-    transition: left 2s, top 2s, transform 2s;
-
+    left: 128px;
+    top: 128px;
 }
 
 .tangram--bateau1 .figure5 {
-    left: 257px;
-    top: 768px;
-    transform: rotate(-90deg) translate(0px, 0px);
-    transition: left 2s, top 2s, transform 2s;
-
+    /*already positionned*/
 }
 
 .tangram--bateau1 .figure6 {
-    left: 126px;
-    top: 385px;
-    transform: rotate(90deg) translate(0px, 0px);
-    transition: left 2s, top 2s, transform 2s;
-
+    bottom: 0;
 }
 
 .tangram--bateau1 .figure7 {
     top:256px;
     left:0;
-    transform: translate(0px, 0px);
-    transition: left 2s, top 2s, transform 2s;
-
-
 }

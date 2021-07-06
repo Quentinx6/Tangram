@@ -1,31 +1,76 @@
+
+*
+{
+        animation-duration:2s;
+}
+
 .tangram--bateau2 .figure1 {
-    /*already positionned wow*/
-}
-
-.tangram--bateau2 .figure2 {
-    left: 256px;
-}
-
-.tangram--bateau2 .figure3 {
-    transform: rotate(45deg);
-    top: 128px;
-    left: 128px;
-}
-
-.tangram--bateau2 .figure4 {
-    left: 128px;
-    top: 128px;
-}
-
-.tangram--bateau2 .figure5 {
-    /*already positionned*/
-}
-
-.tangram--bateau2 .figure6 {
-    bottom: 0;
-}
-
-.tangram--bateau2 .figure7 {
-    top:256px;
-    left:0;
-}
+        transform: rotate(45deg) translate(170px, -135px);
+        animation-name: figure1bateau2;
+    }
+    
+    .tangram--bateau2 .figure2 {
+        transform: rotate(280deg) skew(45deg) translate(4px, -260px);
+        animation-name: figure2bateau2;
+    }
+    
+    .tangram--bateau2 .figure3 {
+        transform: rotate(45deg) translate(303px,-3px);
+        animation-name:figure3bateau2;
+    }
+    
+    .tangram--bateau2 .figure4 {
+        transform: translate(-42px,209px);
+        animation-name: figure4bateau2;
+    }
+    
+    .tangram--bateau2 .figure5 {
+        transform: rotate(90deg) translate(-45px,-210px);
+        animation-name: figure5bateau2;
+    }
+    
+    .tangram--bateau2 .figure6 {
+        transform: rotate(90deg) translate(209px,-475px);
+        animation-name: figure6bateau2;
+    }
+    
+    .tangram--bateau2 .figure7 {
+        transform: rotate(180deg)translate(50px,-465px);
+        animation-name: figure7bateau2;
+    }
+    
+    @keyframes figure1bateau2
+    {
+        from {transform: rotate(0deg) translate(0px,0px);}
+        to {transform: rotate(45deg) translate(170px, -135px);}
+    }
+    @keyframes figure2bateau2
+    {
+        from {transform: rotate(0deg) skew(-45deg) translate(256px,-0px);}
+        to {transform: rotate(280deg) skew(45deg) translate(4px, -260px);}
+    }
+    @keyframes figure3bateau2
+    {
+        from {transform: rotate(45deg) translate(181px,0px);}
+        to {transform: rotate(45deg) translate(303px,-3px);}
+    }
+    @keyframes figure4bateau2
+    {
+        from {transform: rotate(0deg) translate(128px,128px);}
+        to {transform: translate(-42px,209px);}
+    }
+    @keyframes figure5bateau2
+    {
+        from {transform: rotate(0deg) translate(0px,0px);}
+        to {transform: rotate(90deg) translate(-45px,-210px);}
+    }
+    @keyframes figure6bateau2
+    {
+        from {transform: rotate(0deg) translate(0px,256px);}
+        to {transform: rotate(90deg) translate(209px,-475px);}
+    }
+    @keyframes figure7bateau2
+    {
+        from {transform: rotate(0deg) translate(0px,256px);}
+        to {transform: rotate(180deg)translate(50px,-465px);}
+    }
