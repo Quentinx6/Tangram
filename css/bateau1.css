@@ -1,54 +1,35 @@
 /* bateau 1 */
 .tangram--bateau1 .figure1 {
-    top: -107px;
-    left: 249px;
-    transform: rotate(45deg);
-    transition: left 2s ease 0s, top 2s ease 0s, transform 3s ease 0s;
+    transform: translate(242px, -108px) rotate(45deg);
+    transition: transform 2s;
 }
 
 .tangram--bateau1 .figure2 {
-    left: -2px;
-    top: 257px;
-    transform: skew(-45deg) translate(0px, 0px);
-    transition: left 2s ease 0s, top 2s ease 0s, transform 2s ease 0s;
+    transform: skew(-45deg) translate(255px,257px);
+    transition: transform 2s;
 }
 
 .tangram--bateau1 .figure3 {
-    top: 75px;
-    left: 168px;
-    transform: translate(0px, 0px);
-    transition: left 2s ease 0s, top 2s ease 0s, transform 2s ease 0s;
+    transform: translate(160px, 75px);
+    transition: transform 2s;
 }
 
 .tangram--bateau1 .figure4 {
-    top: 256px;
-    right: 514px;
-    transform: translate(0px, 0px);
-    transition: left 2s ease 0s, top 2s ease 0s, transform 2s ease 0s;
+    transform: translate(-258px, 256px);
+    transition: transform 3s;
 }
 
 .tangram--bateau1 .figure5 {
-    left: 257px;
-    top: 768px;
-    transform: rotate(-90deg) translate(0px, 0px);
-    transition: left 2s ease 0s, top 2s ease 0s, transform 2s ease 0s;
+    transform: translate(257px, 768px) rotate(-90deg);
+    transition: transform 3s;
 }
 
 .tangram--bateau1 .figure6 {
-    left: 126px;
-    top: 385px;
-    transform: rotate(90deg) translate(0px, 0px);
-    transition: left 2s ease 0s, top 2s ease 0s, transform 2s ease 0s;
+    transform: translate(125px, 386px) rotate(90deg) ;
+    transition: transform 3s;
 }
 
 .tangram--bateau1 .figure7 {
-    top: 256px;
-    left: 0px;
-    transform: translate(0px, 0px);
-    transition: left 2s ease 0s, top 2s ease 0s, transform 2s ease 0s;
-<<<<<<< HEAD
+    transform: translate(0px, 256px);
+    transition: transform 3s;
 }
-=======
-}
-
->>>>>>> 3eb171ea3c3dcc7bbaa50cb5ee3c3511e6630161
