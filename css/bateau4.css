@@ -12,14 +12,12 @@
     transform: rotate(45deg);
     top: 256px;
     left: 542px;
-    transition: left 2s, top 2s, transform 2s;
-
+    transition: left 2s ease 0s, top 2s ease 0s, transform 2s;
 }
 
 .tangram--bateau4 .figure4 {
     transform: rotate(180deg) translate(-542px, -513px);
-    transition: left 2s, top 2s, transform 2s;
-
+    transition: transform 2s;
 }
 
 .tangram--bateau4 .figure5 {
