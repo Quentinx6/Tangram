@@ -1,41 +1,93 @@
 .tangram--bateau3 .figure1 {
-    /*already positionned wow*/
-    top: 780px;
-    left: 685px;
-    transform: rotate(225deg);
+    /* transform: translate(0px, 0px); */
+    /* animation: figure1 3s forwards;
+    animation-delay: 1s; */
+    transform: translate(682px, 781px) rotate(225deg);
+    transition: left 2s, top 2s, transform 2s;
 }
 
 .tangram--bateau3 .figure2 {
-    left: 500px;
-    top: 600px;
-    transform: rotate(45deg) skew(-45deg);
+    /* transform: translate(256px, 0px) rotate(0deg) skew(-45deg, 0deg);    */
+    /* animation: figure2 3s forwards;
+    animation-delay: 1s; */
+    transform: translate(500px, 600px) rotate(45deg) skew(-45deg);
+    transition: left 2s, top 2s, transform 2s;
 }
 
 .tangram--bateau3 .figure3 {
-    top: 290px;
-    left: 800px;
-    transform: rotate(75deg);
-
+    /* transform: translate(128px, 128px) rotate(45deg); */
+    /* animation: figure3 3s forwards;
+    animation-delay: 1s; */
+    transform: translate(800px, 290px) rotate(75deg);
+    transition: left 2s, top 2s, transform 2s;
 }
 
 .tangram--bateau3 .figure4 {
-    left: 578px;
-    top: 160px;
-    transform: rotate(30deg);
+    /* transform: translate(128px, 128px);     */
+    /* animation: figure4 3s forwards;
+    animation-delay: 1s; */
+    transform: translate(578px, 160px) rotate(30deg);
+    transition: left 2s, top 2s, transform 2s;
 }
 
 .tangram--bateau3 .figure5 {
-    /*already positionned*/
+    transform: translate(0px, 0px);
 }
 
 .tangram--bateau3 .figure6 {
-    bottom: 0;
-    left: 1024px;
-    top: 417px;
-    transform: rotate(120deg);
+    /* transform: translate(0px, 256px); */
+    /* animation: figure6 3s forwards;
+    animation-delay: 1s; */
+    transform: translate(1024px, 417px) rotate(120deg);
+    transition: left 2s, top 2s, transform 2s;
 }
 
 .tangram--bateau3 .figure7 {
-    top:256px;
-    left:0;
+    transform: translate(0px, 256px);
+    transition: left 2s, top 2s, transform 2s;
 }
+
+/* @keyframes figure1 {
+    from {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    to{
+        transform: translate(682px, 781px) rotate(225deg);
+    }
+}
+
+@keyframes figure2 {
+    from{
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    to{
+        transform: translate(500px, 600px) rotate(45deg) skew(-45deg);
+    }
+}
+
+@keyframes figure3 {
+    from{
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    to{
+        transform: translate(800px, 290px) rotate(75deg);
+    }
+}
+
+@keyframes figure4 {
+    from{
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    to{
+        transform: translate(578px, 160px) rotate(30deg);
+    }
+}
+
+@keyframes figure6 {
+    from{
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    to{
+        transform: translate(1024px, 417px) rotate(120deg);
+    }
+} */
