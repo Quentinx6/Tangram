@@ -3,7 +3,7 @@
     top: -107px;
     left: 249px;
     transform: rotate(45deg);
-    /* transition: left 2s ease 0s, top 2s ease 0s, transform 3s ease 0s; */
+    transition: left 2s ease 0s, top 2s ease 0s, transform 3s ease 0s;
 }
 
 .tangram--bateau1 .figure2 {
