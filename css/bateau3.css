@@ -1,13 +1,7 @@
 .tangram--bateau3 .figure1 {
-<<<<<<< HEAD
     top: 780px;
     left: 685px;
     transform: rotate(225deg);
-=======
-    transform: translate(10px, 10px) rotate(0 deg);
-    animation: figure1 3s forwards;
-    animation-delay: 1s;
->>>>>>> 0737bf217f1959e47b83080a4c29ad1bfd99b740
 }
 
 .tangram--bateau3 .figure2 {
