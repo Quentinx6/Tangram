@@ -1,31 +1,33 @@
 .tangram--basic .figure1 {
-    /*already positionned*/
+    transform: rotate(0deg) translate(0px,0px);
+    transition: transform 2s;
 }
 
 .tangram--basic .figure2 {
-    left: 256px;
+    transform: rotate(0deg) skew(-45deg) translate(256px,-0px);
+    transition: transform 2s;
 }
 
 .tangram--basic .figure3 {
-    transform: rotate(45deg);
-    top: 128px;
-    left: 128px;
+    transform: rotate(45deg) translate(181px,0px);
+    transition: transform 2s;
 }
 
 .tangram--basic .figure4 {
-    left: 128px;
-    top: 128px;
+    transform: rotate(0deg) translate(128px,128px);
+    transition: transform 2s;
 }
 
 .tangram--basic .figure5 {
-    /*already positionned*/
+    transform: rotate(0deg) translate(0px,0px);
+    transition: transform 2s;
 }
 
 .tangram--basic .figure6 {
-    bottom: 0;
+    transform: rotate(0deg) translate(0px,256px);
+    transition: transform 2s;
 }
-
 .tangram--basic .figure7 {
-    top:256px;
-    left:0;
+    transform: translate(0px,256px);
+    transition: transform 2s;
 }

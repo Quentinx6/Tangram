@@ -1,0 +1,42 @@
+.tangram--Quentin{
+    transform: scale(0.7);
+    transition: 2s;
+}
+
+.tangram--Quentin .figure1 {
+    transform: translate(672px, -150px) rotate(90deg);
+    transition: transform 2s;
+}
+
+.tangram--Quentin .figure2 {
+    transform: translate(-49px, 157px) skew(-45deg);
+    transition: transform 2s;
+}
+
+.tangram--Quentin .figure3 {
+    transform: translate(209px, 160px) rotate(45deg);
+    transition: transform 2s;
+}
+
+.tangram--Quentin .figure4 {
+    transform: translate(340px, 289px) rotate(90deg) ;
+    transition: transform 2s;
+}
+
+.tangram--Quentin .figure5 {
+    transform: translate(-98px, -150px) rotate(0deg);
+    transition: transform 2s;
+
+}
+
+.tangram--Quentin .figure6 {
+    transform: translate(210px, 418px) rotate(0deg);
+    transition: transform 2s;
+
+}
+
+.tangram--Quentin .figure7 {
+    transform: translate(671px, -149px) rotate(90deg);
+    transition: transform 2s;
+
+}

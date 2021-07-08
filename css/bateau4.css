@@ -1,4 +1,7 @@
-
+.tangram--bateau4{
+    transform: scale(0.7);
+    transition: 2s;
+}
 
 .tangram--bateau4 .figure1 {
     transform: rotate(225deg) translate(-767px, -249px);
