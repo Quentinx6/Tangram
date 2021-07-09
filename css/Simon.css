@@ -1,0 +1,33 @@
+.tangram--Simon .figure1 {
+    transform: rotate(180deg) translate(300px,-160px);
+    transition: transform 2s;
+}
+
+.tangram--Simon .figure2 {
+    transform: rotate(135deg) skew(45deg) translate(230px, -428px);
+    transition: transform 2s;
+}
+
+.tangram--Simon .figure3 {
+    transform: rotate(0deg) translate(-111px,163px);
+    transition: transform 2s;
+}
+
+.tangram--Simon .figure4 {
+    transform: rotate(225deg) translate(-162px,-325px);
+    transition: transform 2s;
+}
+
+.tangram--Simon .figure5 {
+    transform: rotate(45deg) translate(-216px,-321px);
+    transition: transform 2s;
+}
+
+.tangram--Simon .figure6 {
+    transform: rotate(135deg) translate(194px,-32px);
+    transition: transform 2s;
+}
+.tangram--Simon .figure7 {
+    transform: rotate(180deg) translate(-400px,-603px);
+    transition: transform 2s;
+}

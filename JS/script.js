@@ -5,6 +5,7 @@ var button_bateau2 = document.getElementsByClassName("button--bateau2")[0];
 var button_bateau3= document.getElementsByClassName("button--bateau3")[0];
 var button_bateau4 = document.getElementsByClassName("button--bateau4")[0];
 var button_Quentin = document.getElementsByClassName("button--Quentin")[0];
+var button_Simon = document.getElementsByClassName("button--Simon")[0];
 
 button_basic.onclick = function() {
 	tangram.className =
@@ -28,5 +29,9 @@ button_bateau4.onclick = function() {
 };
 button_Quentin.onclick = function() {
 	tangram.className =tangram.className.replace(/tangram--(\S*)/,'tangram--Quentin');
+
+};
+button_Simon.onclick = function() {
+	tangram.className =tangram.className.replace(/tangram--(\S*)/,'tangram--Simon');
 
 };
