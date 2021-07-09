@@ -1,0 +1,38 @@
+.tangram--soufiane .figure1 {
+    transform: translate(-13px, 660px)rotate(-90deg);
+    transition: 2s;
+}
+.tangram--soufiane .figure2 {
+    left: 256px;
+    transform: translate(-533px, -45px)rotate(45deg)skew(-45deg);
+    transition: 2s;
+   
+}
+.tangram--soufiane .figure3 {
+    /* transform: rotate(45deg); */
+    top: 128px;
+    left: 128px;
+    transform: translate(140px, -173px);
+    transition: 2s;
+}
+.tangram--soufiane .figure4 {
+    /* left: 128px;
+    top: 128px; */
+    transform: translate(523px, -47px)rotate(180deg);
+    transition: 2s;
+}
+.tangram--soufiane .figure5 {
+    /*already positionned*/
+    transform: translate(86px, -224px) rotate(45deg);
+    transition: 2s;
+}
+.tangram--soufiane .figure6 {
+    transform: translate(361px, 229px)rotate(45deg);
+    transition: 2s;
+}
+.tangram--soufiane .figure7 {
+    /* top:256px;
+    left:0; */
+    transform: translate(-96px, -44px) rotate(45deg);
+    transition: 2s;
+}
